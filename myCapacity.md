@@ -58,11 +58,37 @@
 - Postman(なんそれ？状態)
     - 作成したロジックが正しく動作するかをテストするためのツール
     - getter・setter
+    - GET・POST
+- Postmanの強み
+    - 世界標準ゆえの情報の多さ(困ったときにすぐ答えが見つかる)
+    - 何を送っているかが視覚的にわかりやすい
+        - URL(宛先，どこに送るか)
+        - Method(GETかPOSTか)
+        - Body(どんなデータか)
+        - Response(Java側からどんな結果が返ってきたか)
+    - 履歴と保存が便利(バグ取りの効率が劇的に上がる)
+代替ツール
+- Insomnia
+    - UIがシンプル
+    - 動作が軽い
+- Thunder Client 
+    - VS Codeの拡張機能
+- cURL
+    - コマンドラインで叩く
+    - 動作が軽い
+    - エンジニア向け
+- HTTPie
+    - cURLの使いやすい版
+- IntelliJ HTTP Client
+    - IntelliJ内で完結する
+    - Postmanほど多機能ではない(玄人向け)
+- Swagger UI
+    - Spring Bootと相性がいい
 
 ## Git(バージョン管理)
 - Git・GitHub(実力さておき正直めちゃくちゃ自信ある，ありがとう久保田先生)
 
 # フロントエンド
-- Thymeleaf(学習コストが低い，スマホUIはやや弱い)
-- フロントエンドReact，バックエンドSpringBoot(スマホ対応しやすい，将来アプリ化しやすい)
+- Thymeleaf(学習コストが低い，スマホUIはやや弱い，Java内で完結する)
+- フロントエンドReact，バックエンドSpringBoot(スマホ対応しやすい，将来アプリ化しやすい，学習対象が増えすぎる)
 - Bootstrap(CSSフレームワーク，スマホで見ても崩れない「レスポンシブルデザイン」が簡単に作れる)
