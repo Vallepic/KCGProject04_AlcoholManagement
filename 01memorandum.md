@@ -9,7 +9,7 @@
 - ・・・\src\main\java\に
   クラス    「AlcCalc.java」作成
     amountMl    :アルコール摂取量(ml)
-    ABV :アルコール度数(Alcohol By Volume)(%)
+    aBV :アルコール度数(Alcohol By Volume)(%)
     pureAlc :純アルコール量(g)
     weight  :ユーザの体重(kg)
     decomposeAlcTime    :推定のアルコール分解に要する時間(hour)
